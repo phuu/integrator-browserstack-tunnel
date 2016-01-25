@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Start BrowserStackLocal secure tunnel for running tests against local environments",
   "main": "out/index.js",
-  "files": ["bin/BrowserStackLocal", "out"],
+  "files": [
+    "bin/BrowserStackLocal",
+    "out"
+  ],
   "scripts": {
     "build": "babel --optional runtime src --out-dir out",
     "watch": "babel --watch --optional runtime src --out-dir out",
@@ -14,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phuu/integrator-browserstack-tunnel.git"
+    "url": "https://github.com/phuu/integrator-browserstack-tunnel.git"
   },
   "author": "Twitter",
   "license": "MIT",
