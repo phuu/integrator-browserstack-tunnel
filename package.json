@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Start BrowserStackLocal secure tunnel for running tests against local environments",
   "main": "out/index.js",
-  "files": ["bin/BrowserStackLocal"],
+  "files": ["bin/BrowserStackLocal", "out"],
   "scripts": {
     "build": "babel --optional runtime src --out-dir out",
     "watch": "babel --watch --optional runtime src --out-dir out",
