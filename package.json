@@ -1,6 +1,6 @@
 {
   "name": "integrator-browserstack-tunnel",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Start BrowserStackLocal secure tunnel for running tests against local environments",
   "main": "out/index.js",
   "files": [
