@@ -1,6 +1,6 @@
 import { spawn } from  'child_process';
 
-export default class IntegratorBrowserStackTunnel {
+class IntegratorBrowserStackTunnel {
     constructor(key) {
         this.key = key;
     }
@@ -42,3 +42,5 @@ export default class IntegratorBrowserStackTunnel {
         });
     }
 }
+
+module.exports = IntegratorBrowserStackTunnel;
